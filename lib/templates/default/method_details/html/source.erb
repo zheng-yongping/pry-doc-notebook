@@ -1,10 +1,12 @@
-<table class="source_code">
-  <tr style="background: inherit;">
-    <td>
-      <pre class="lines"><%= "\n\n\n" %><%= h format_lines(object) %></pre>
-    </td>
-    <td style="text-align: left;">
-      <pre class="code"><span class="info file"># File '<%= h object.file %>'<% if object.line %>, line <%= object.line %><% end %></span><%= "\n\n" %><%= html_syntax_highlight object.source, detect_language(object.file) %></pre>
-    </td>
-  </tr>
-</table>
+<div style="border: 1px solid #cfcfcf; border-radius: 2px">
+  <table>
+    <tr style="background: inherit;">
+      <td style="border-right: 1px solid #cfcfcf;">
+        <pre style="color: #999"><%= "\n\n\n" %><%= h format_lines(object) %></pre>
+      </td>
+      <td style="text-align: left;">
+        <pre><span># File '<%= h object.file %>'<% if object.line %>, line <%= object.line %><% end %></span><%= "\n\n" %><%= html_syntax_highlight object.source, detect_language(object.file) %></pre>
+      </td>
+    </tr>
+  </table>
+</div>
