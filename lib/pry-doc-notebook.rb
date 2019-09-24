@@ -2,6 +2,7 @@
 
 require_relative 'pry-doc-notebook/version'
 require_relative 'pry-doc-notebook/yri'
+require_relative 'pry-doc-notebook/html_syntax_highlight'
 
 require 'yard'
 
