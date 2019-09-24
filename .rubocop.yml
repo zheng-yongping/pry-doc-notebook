@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - '*.gemspec'
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Style/RedundantReturn:
+  Enabled: false
