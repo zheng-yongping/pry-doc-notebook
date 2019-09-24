@@ -7,3 +7,12 @@ Layout/EndOfLine:
 
 Style/RedundantReturn:
   Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
