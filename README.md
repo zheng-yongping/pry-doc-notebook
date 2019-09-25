@@ -9,7 +9,7 @@ With help of the plugin the commands are be able to display documentation with h
 
 ## Usage
 
-TODO: Write usage instructions here
+![Usage](readme_img/usage.png)
 
 ## Contributing
 
