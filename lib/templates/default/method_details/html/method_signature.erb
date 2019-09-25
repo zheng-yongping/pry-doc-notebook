@@ -3,7 +3,7 @@
     <%= signature(object.tag(:overload), false) %>
   <% elsif object.tags(:overload).size > 1 %>
     <% object.tags(:overload).each do |overload| %>
-      <span class="overload"><%= signature(overload, false) %></span>
+      <span class="overload" style="display: block;"><%= signature(overload, false) %></span>
     <% end %>
   <% else %>
     <%= signature(object, false) %>
