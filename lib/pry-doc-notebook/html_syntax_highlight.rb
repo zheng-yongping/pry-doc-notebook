@@ -6,9 +6,10 @@ require 'rouge'
 module PryDocNotebook
 
   class ModifiedPastie < Rouge::CSSTheme
-    name 'pastie'
+    # Modified by Rouge::Themes::Pastie
+    # See https://github.com/rouge-ruby/rouge/blob/master/lib/rouge/themes/pastie.rb
 
-    style Comment,                   :fg => '#888888'
+    style Comment,                   :fg => '#408080'
     style Comment::Preproc,          :fg => '#cc0000', :bold => true
     style Comment::Special,          :fg => '#cc0000', :bg => '#fff0f0', :bold => true
 
@@ -35,14 +36,14 @@ module PryDocNotebook
 
     style Num,                       :fg => '#0000dd', :bold => true
 
-    style Str,                       :fg => '#dd2200', :bg => '#fff0f0'
-    style Str::Escape,               :fg => '#0044dd', :bg => '#fff0f0'
-    style Str::Interpol,             :fg => '#3333bb', :bg => '#fff0f0'
-    style Str::Other,                :fg => '#22bb22', :bg => '#f0fff0'
+    style Str,                       :fg => '#dd2200'
+    style Str::Escape,               :fg => '#0044dd'
+    style Str::Interpol,             :fg => '#3333bb'
+    style Str::Other,                :fg => '#22bb22'
     #style Str::Regex,                :fg => '#008800', :bg => '#fff0ff'
     # The background color on regex really doesn't look good, so let's drop it
     style Str::Regex,                :fg => '#008800'
-    style Str::Symbol,               :fg => '#aa6600', :bg => '#fff0f0'
+    style Str::Symbol,               :fg => '#aa6600'
 
     style Name::Attribute,           :fg => '#336699'
     style Name::Builtin,             :fg => '#003388'
