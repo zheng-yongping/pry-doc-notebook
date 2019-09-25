@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Provides YARD and extended documentation support for Pry in IRuby Notebook}
   spec.description   = <<~DESCR
-    Pry Doc Notebook is a Pry REPL plugin for IRuby Notebook. It provides a `?`` commands.
+    Pry Doc Notebook is a Pry REPL plugin for IRuby Notebook. It provides a `?` commands.
     With help of the plugin the commands are be able to display documentation with html format.
   DESCR
 
