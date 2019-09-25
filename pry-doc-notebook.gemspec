@@ -45,5 +45,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'pry', '~> 0.12'
   spec.add_dependency 'pry-doc', '~> 1.0'
   spec.add_dependency 'rouge', '~> 3.11'
-  spec.add_dependency 'nokogiri' '~> 1.10'
+  spec.add_dependency 'nokogiri', '~> 1.10'
 end
